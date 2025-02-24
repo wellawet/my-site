@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Sketchy Site</title>
+	<link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>A Sketchy Site</h1>
+    </header>
+
+    <main class="content">
+        <section class="section academic">
+            <h2 class="section-title">Academic Activities</h2>
+            <ol class="activity-list">
+                <li>Reading Journals</li>
+                <li>Writing</li>
+                <li>Math Competitions</li>
+                <li>Scientific Experiments</li>
+            </ol>
+        </section>
+
+        <section class="section co-curricular">
+            <h2 class="section-title">Co-Curricular Activities</h2>
+            <ul class="activity-list">
+                <li>Soccer</li>
+                <li>Boxing</li>
+                <li>At the Gym</li>
+                <li>Swimming</li>
+            </ul>
+        </section>
+
+        <section class="section gallery">
+            <h2 class="section-title">My Pics</h2>
+            <img src="ugsmc.jpg" alt="Picture" class="gallery-image" width="600" height="500">
+        </section>
+
+        <section class="section contact">
+            <h2 class="section-title">Where to Find Me</h2>
+            <a href="isabella-fischer-b_o-yVCVmhk-unsplash.jpg" target="_blank" class="find-me-link">Find me on X</a>
+        </section>
+
+        <section class="section newsletter">
+            <h2 class="section-title">If you want to hear from me, Subscribe to my Newsletter</h2>
+            <form class="subscription-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" list="countries" required>
+                    <datalist id="countries">
+                        <option value="Africa">Africa</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="South Sudan">South Sudan</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="DRC">DRC</option>
+                    </datalist>
+                </div>
+                <input type="submit" value="Subscribe" class="submit-button">
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <!-- Footer content can go here -->
+        <p>Wella &copy2025</p>
+    </footer>
+</body>
+</html>
